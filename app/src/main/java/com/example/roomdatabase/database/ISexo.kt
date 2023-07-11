@@ -1,7 +1,8 @@
 package com.example.roomdatabase.database
 
 import androidx.room.*
-import androidx.room.OnConflictStrategy.IGNORE
+import androidx.room.OnConflictStrategy.Companion.IGNORE
+
 
 @Dao
 interface ISexo {
